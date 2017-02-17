@@ -16,7 +16,7 @@ class TestStreingMethods (unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
         #comments just to test somehing
-
+        #this is just a comment to update the code in CI
 
 if __name__ == '__main__':
     unittest.main()
