@@ -17,6 +17,10 @@ class TestStreingMethods (unittest.TestCase):
             s.split(2)
         #comments just to test somehing
         #this is just a comment to update the code in CI
+        #More comments
+
+    def do_nothing(self):
+        echo "Nothing to do here"
 
 if __name__ == '__main__':
     unittest.main()
